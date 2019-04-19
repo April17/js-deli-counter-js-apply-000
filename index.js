@@ -17,7 +17,7 @@ function nowServing (line){
 function currentLine(line){
   var lineString = ""
   var lineNameTemp = ""
-  var index = ""
+  var index = 0
   var lineStringTemp = ""
   var comma = ", "
   if (line.length === 0){
